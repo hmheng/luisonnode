@@ -10,12 +10,12 @@ function getLuisIntent(utterance) {
     // Set the LUIS_APP_ID environment variable 
     // to df67dcdb-c37d-46af-88e1-8b97951ca1c2, which is the ID
     // of a public sample application.    
-    var luisAppId = '4bf884ed-c9a6-4c50-bf27-3521ac3290b3';
+    var luisAppId = '<Your LUIS App ID Here>';
 
     // Set the LUIS_SUBSCRIPTION_KEY environment variable
     // to the value of your Cognitive Services subscription key
     var queryParams = {
-        "subscription-key": '39001e52b8ab4854ab752211b97ec933',
+        "subscription-key": '<Your Subscription Key Here>',
         "timezoneOffset": "0",
         "verbose":  true,
         "q": utterance
